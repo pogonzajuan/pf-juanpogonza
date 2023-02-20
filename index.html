@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- FUENTES  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/styles.css">
+    <title>WIREFRAME HTML</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <main>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/banner1.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/banner2.webp" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/placeholderCrunchy.webp" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        <!-- <div class="displayflex gap-1rem containerConCajitas">
+            <div class="tituloanime">
+                <a href="">Ranking of king</a>
+            </div>
+
+            <div class="tituloanime">
+                <a href="">lycoris Recoil</a>
+            </div>
+
+            <div class="tituloanime">
+                <a href="">spy x family</a>
+            </div>
+
+            <div class="tituloanime">
+                <a href="">Kaguya-sama:love is war</a>
+            </div>
+
+            <div class="tituloanime">
+                <a href="">akebis</a>
+            </div>
+
+            <div class="tituloanime">
+                <a href="">Aoashi</a>
+            </div>
+        </div> -->
+        <ul class="list-group list-group-horizontal displayflex gap-1rem listadeitems ">
+            <li class="list-group-item"><a href="./pages/rankingofkings.html">Ranking of kings</a></li>
+            <li class="list-group-item"><a href="./pages/spyxfamily.html">Spyx family</a></li>
+            <li class="list-group-item">Spy Family</li>
+            <li class="list-group-item">Kaguya-sama</li>
+            <li class="list-group-item">akebis</li>
+          </ul> 
+
+        <div class="conteinerdetexto">
+            <h1>Titulos destacados</h1>
+<h3>Recientes</h3>
+            <div class="divisor"></div>
+        </div>
+
+        <div class="displayflex gap-1rem containerdeanimes">
+            <div class="card" style="width: 18rem;">
+                <img src="./img/descarga.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Incapaz de oír, hablar o incluso de empuñar una espada, el príncipe Bojji no parece el típico heredero al trono, algo que todo su reino comparte. Pero un encuentro con una misteriosa sombra hace que consiga su primer amigo verdadero. Ambos partirán a una gran aventura y forjarán un vínculo capaz de superar cualquier obstáculo... incluso la dificultad de convertirse en rey.t.</p>
+                </div>
+              </div>
+             
+              <div class="card" style="width: 18rem;">
+                <img src="./img/spy.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Todo el mundo tiene una parte de sí mismos que no puede mostrar a los demás.
+
+                    En una era en la que las naciones de todo el mundo se encuentran involucradas en una feroz guerra de información a puerta cerrada, Ostania y Westalis llevan décadas en guerra fría.
+                    
+                    La División de Inteligencia de Westalis (WISE) envía a su mejor espía, "Twilight", en una misión ultrasecreta para vigilar los movimientos de Donovan Desmond, quien dirige el Partido Nacional por la Unidad de Ostania, responsable de bombardear los esfuerzos de paz entre ambos países.</p>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="./img/kaguya.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Kaguya es hija de una familia muy importante y millonaria. Shirogane es también hijo de buena familia y presidente del consejo. Ambos son admirados por todos en la Academia Shuchiin, y ambos están enamorados el uno del otro, pero no se rebajarán a admitirlo y ambos intentan que sea el otro el que declare primero su amor.</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./img/akebis.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Komichi Akebi está en su primer año de preparatoria/instituto y hay una sola cosa que le ha robado el corazón: el uniforme de marinerito de la Academia Privada Robai. Según se acerca esta nueva fase de su vida, sueña con todas las nuevas y emocionantes experiencias que podrá vivir: almuerzos en clase, las propias clases, actividades del club, y por supuesto, ¡hacer amistades!</p>
+                </div>
+              <!-- </div>
+            <div class="animecontitulo">
+                <img src="./img/descarga.jpg">
+                <a href="">Ranking of king</a>
+            </div>
+
+            <div class="animecontitulo">
+                <img src="./img/lycoris.jpg">
+                <a href="">lycoris Recoil</a>
+            </div>
+
+            <div class="animecontitulo">
+                <img src="./img/spy.jpg">
+                <a href="">spy x family</a>
+            </div>
+
+            <div class="animecontitulo">
+                <img src="./img/kaguya.jpg">
+                <a href="">Kaguya-sama:love is war</a>
+            </div>
+
+            <div class="animecontitulo">
+                <img src="./img/akebis.jpg">
+                <a href="">akebis</a>
+            </div>
+        </div> -->
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+<footer>
+
+</footer>
+
+</html>

@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lato,Helvetica Neue,helvetica,sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.displayflex{
+    display: flex;
+    flex-direction: row;
+}
+.gap-1rem{
+    gap: 1rem;
+}
+
+.backgroundespecial {
+    background: linear-gradient(to left,#fab818,#f47521 59%,#fab818);
+    display: flex;
+    place-items: center;
+    place-content: space-evenly;
+}
+
+.imagencentral {
+    width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+
+.flechaizquierda, .flechaderecha {
+    width: 25px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navConteiner{
+    display: flex;
+    flex-direction: column;
+    background-color: #23252b;
+}
+
+.primerLista {
+    display: flex;
+    gap: 1rem;
+}
+
+.primerLista li {
+    color: white;
+    font-weight: 500;
+}
+
+.logoconitems {
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+    padding: 0 1rem;
+
+}
+
+main {
+    background-color: #000000;
+}
+
+.tituloanime {
+    background-color: #23252b;
+    padding: .6875rem .5rem;
+
+}
+.tituloanime a{
+    text-decoration: none;
+    color: white;
+}
+
+.tituloanime img{
+    width: 100px;
+}
+
+.containerConCajitas {
+    place-content: center;
+    padding: 1rem
+}
+
+.conteinerdetexto{
+    margin: 0 1rem;
+}
+
+.conteinerdetexto h1, h3 {
+    color: white;
+    
+}
+
+.divisor {
+    background: linear-gradient(to left,#213944,#2abdbb);
+    height: 5px;
+}
+
+.animecontitulo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.animecontitulo a {
+    color: white;
+    text-decoration: none;
+}
+
+.containerdeanimes {
+    display: flex;
+    place-content: space-evenly;
+    padding: 1rem;
+}
+
+.itemcondropdown {
+    display: grid;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.itemcondropdown:hover .dropdown {
+    display: block !important;
+}
+
+.itemcondropdown svg {
+    grid-area: 1/2/2/3;
+    width: 20px;
+    color: white;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.listadeitems {
+    place-content: center;
+}
