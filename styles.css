@@ -122,6 +122,15 @@ main {
     cursor: pointer;
 }
 
+.dropdown {
+    grid-area: 2/1/3/2;
+    background: black;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    position: absolute;
+}
+
 .itemcondropdown:hover .dropdown {
     display: block !important;
 }
@@ -133,8 +142,4 @@ main {
     background: white;
     border-radius: 20px;
     cursor: pointer;
-}
-
-.listadeitems {
-    place-content: center;
 }
