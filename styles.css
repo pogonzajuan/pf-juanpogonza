@@ -65,6 +65,11 @@ li {
 main {
     background-color: #000000;
 }
+main ul{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
 
 .tituloanime {
     background-color: #23252b;
@@ -143,3 +148,18 @@ main {
     border-radius: 20px;
     cursor: pointer;
 }
+.galeriaFotos {
+    display: grid;
+    margin: 10px;
+    gap: 5px;
+    grid-template-columns: repeat(2,auto);
+    justify-content: space-evenly;
+}
+
+.rankingMain {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
