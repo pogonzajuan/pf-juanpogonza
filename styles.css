@@ -127,18 +127,7 @@ main ul{
     cursor: pointer;
 }
 
-.dropdown {
-    grid-area: 2/1/3/2;
-    background: black;
-    padding: 1rem;
-    margin-top: 2rem;
-    margin-left: 1rem;
-    position: absolute;
-}
 
-.itemcondropdown:hover .dropdown {
-    display: block !important;
-}
 
 .itemcondropdown svg {
     grid-area: 1/2/2/3;
